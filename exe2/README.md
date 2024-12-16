@@ -1,4 +1,4 @@
-# README: Classification of Word2Vec, GloVe, Doc2Vec, and BERT-SBERT Vectors
+# Classification of Word2Vec, GloVe, Doc2Vec, and BERT-SBERT Vectors
 
 ## **Students Information**
 - **Names**: 
