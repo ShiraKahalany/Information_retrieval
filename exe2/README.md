@@ -1,9 +1,11 @@
 # README: Classification of Word2Vec, GloVe, Doc2Vec, and BERT-SBERT Vectors
 
-### Students:
-- **[Your Full Name]**  
-- **ID:** [Your ID]  
-- **Group Number:** [Your Group Number]  
+## **Students Information**
+- **Names**: 
+  - Hadar Sarusi - 213383110
+  - Shira Kahlani - 325283026
+- **Class Number**: 
+  - 157125.21.5785.42
 
 ---
 
