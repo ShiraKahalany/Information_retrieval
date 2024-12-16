@@ -3,7 +3,7 @@
 ## **Students Information**
 - **Names**: 
   - Hadar Sarusi - 213383110
-  - Shira Kahlani - 325283026
+  - Shira Kahalany - 325283026
 - **Class Number**: 
   - 157125.21.5785.42
 
