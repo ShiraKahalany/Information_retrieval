@@ -1,0 +1,733 @@
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8064 - accuracy: 0.6650 - val_loss: 0.7841 - val_accuracy: 0.6761
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7546 - accuracy: 0.6961 - val_loss: 0.7255 - val_accuracy: 0.7216
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7069 - accuracy: 0.7199 - val_loss: 0.6856 - val_accuracy: 0.7443
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6615 - accuracy: 0.7576 - val_loss: 0.6371 - val_accuracy: 0.7812
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6189 - accuracy: 0.7728 - val_loss: 0.5948 - val_accuracy: 0.7983
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5768 - accuracy: 0.7844 - val_loss: 0.5672 - val_accuracy: 0.8125
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5472 - accuracy: 0.7954 - val_loss: 0.5252 - val_accuracy: 0.8352
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5163 - accuracy: 0.8118 - val_loss: 0.5058 - val_accuracy: 0.8239
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 7ms/step - loss: 1.3824 - accuracy: 0.2667 - val_loss: 1.3639 - val_accuracy: 0.4460
+Epoch 2/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.3253 - accuracy: 0.3788 - val_loss: 1.2530 - val_accuracy: 0.4773
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2015 - accuracy: 0.4787 - val_loss: 1.1151 - val_accuracy: 0.5000
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0882 - accuracy: 0.4836 - val_loss: 1.0168 - val_accuracy: 0.4943
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9902 - accuracy: 0.5280 - val_loss: 0.8962 - val_accuracy: 0.5881
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8946 - accuracy: 0.6114 - val_loss: 0.8151 - val_accuracy: 0.6705
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8202 - accuracy: 0.6717 - val_loss: 0.7396 - val_accuracy: 0.7557
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7555 - accuracy: 0.6985 - val_loss: 0.6695 - val_accuracy: 0.7642
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6900 - accuracy: 0.7460 - val_loss: 0.6453 - val_accuracy: 0.8011
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6409 - accuracy: 0.7753 - val_loss: 0.5753 - val_accuracy: 0.8267
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6023 - accuracy: 0.7905 - val_loss: 0.5333 - val_accuracy: 0.8239
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5614 - accuracy: 0.8088 - val_loss: 0.5192 - val_accuracy: 0.8153
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5264 - accuracy: 0.8222 - val_loss: 0.4803 - val_accuracy: 0.8267
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5034 - accuracy: 0.8295 - val_loss: 0.4783 - val_accuracy: 0.8125
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.4813 - accuracy: 0.8453 - val_loss: 0.4615 - val_accuracy: 0.8267
+
+Training Naive Bayes for glove_lemma_withoutIdf_withStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.5260
+
+Training Logistic Regression for glove_lemma_withoutIdf_withStopWords
+Logistic Regression Average Accuracy: 0.8248
+
+Training SVM for glove_lemma_withoutIdf_withStopWords
+SVM Average Accuracy: 0.8402
+
+Training Random Forest for glove_lemma_withoutIdf_withStopWords
+Random Forest Average Accuracy: 0.8781
+Results for glove_lemma_withoutIdf_withStopWords: {'Naive Bayes': 0.5260229132569558, 'Logistic Regression': 0.8248281505728314, 'SVM': 0.8401691216584835, 'Random Forest': 0.878092380432806}
+All tasks completed successfully!
+
+C:\Users\danie\Desktop\IR\Information_retrieval\exe2>
+
+C:\Users\danie\Desktop\IR\Information_retrieval\exe2>
+C:\Users\danie\Desktop\IR\Information_retrieval\exe2> c: && cd c:\Users\danie\Desktop\IR\Information_retrieval\exe2 && cmd /C "c:\Users\danie\AppData\Local\Programs\Python\Python311\python.exe c:\Users\danie\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher 64306 -- C:\Users\danie\Desktop\IR\Information_retrieval\exe2\Word2vec_classification.py "
+
+Processing file: w2v_lemma_withoutIdf_withStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_lemma_withoutIdf_withStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 2s 9ms/step - loss: 1.3835 - accuracy: 0.3118 - val_loss: 1.3770 - val_accuracy: 0.3722
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3687 - accuracy: 0.3946 - val_loss: 1.3523 - val_accuracy: 0.4062
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3340 - accuracy: 0.4032 - val_loss: 1.2977 - val_accuracy: 0.4062
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2677 - accuracy: 0.4147 - val_loss: 1.2166 - val_accuracy: 0.4034
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1884 - accuracy: 0.4263 - val_loss: 1.1294 - val_accuracy: 0.4148
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1157 - accuracy: 0.4336 - val_loss: 1.0615 - val_accuracy: 0.4659
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0568 - accuracy: 0.4458 - val_loss: 1.0057 - val_accuracy: 0.4318
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0071 - accuracy: 0.4458 - val_loss: 0.9578 - val_accuracy: 0.4744
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9659 - accuracy: 0.4671 - val_loss: 0.9208 - val_accuracy: 0.4972
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9350 - accuracy: 0.4890 - val_loss: 0.8939 - val_accuracy: 0.5142
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9145 - accuracy: 0.5061 - val_loss: 0.8718 - val_accuracy: 0.5568
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8878 - accuracy: 0.5438 - val_loss: 0.8460 - val_accuracy: 0.5824
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8660 - accuracy: 0.5706 - val_loss: 0.8286 - val_accuracy: 0.5994
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8495 - accuracy: 0.5810 - val_loss: 0.8118 - val_accuracy: 0.6193
+Epoch 15/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8374 - accuracy: 0.5877 - val_loss: 0.7984 - val_accuracy: 0.6534
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 7ms/step - loss: 1.3810 - accuracy: 0.2558 - val_loss: 1.3696 - val_accuracy: 0.2955
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3321 - accuracy: 0.3599 - val_loss: 1.2614 - val_accuracy: 0.3494
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1621 - accuracy: 0.4756 - val_loss: 1.0576 - val_accuracy: 0.5568
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0273 - accuracy: 0.5603 - val_loss: 0.9739 - val_accuracy: 0.6335
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9596 - accuracy: 0.5938 - val_loss: 0.9228 - val_accuracy: 0.6136
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9079 - accuracy: 0.6218 - val_loss: 0.8521 - val_accuracy: 0.6420
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8428 - accuracy: 0.6724 - val_loss: 0.7853 - val_accuracy: 0.7386
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7842 - accuracy: 0.6998 - val_loss: 0.7316 - val_accuracy: 0.7585
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7497 - accuracy: 0.7010 - val_loss: 0.6999 - val_accuracy: 0.7500
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7086 - accuracy: 0.7387 - val_loss: 0.6856 - val_accuracy: 0.7528
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6816 - accuracy: 0.7314 - val_loss: 0.6597 - val_accuracy: 0.7614
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6494 - accuracy: 0.7570 - val_loss: 0.6315 - val_accuracy: 0.7756
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6294 - accuracy: 0.7674 - val_loss: 0.6123 - val_accuracy: 0.7727
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6148 - accuracy: 0.7686 - val_loss: 0.6051 - val_accuracy: 0.7841
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5919 - accuracy: 0.7838 - val_loss: 0.6025 - val_accuracy: 0.7812
+
+Training Naive Bayes for w2v_lemma_withoutIdf_withStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.4979
+
+Training Logistic Regression for w2v_lemma_withoutIdf_withStopWords
+Logistic Regression Average Accuracy: 0.7596
+
+Training SVM for w2v_lemma_withoutIdf_withStopWords
+SVM Average Accuracy: 0.7835
+
+Training Random Forest for w2v_lemma_withoutIdf_withStopWords
+Random Forest Average Accuracy: 0.8815
+Results for w2v_lemma_withoutIdf_withStopWords: {'Naive Bayes': 0.49788325150027274, 'Logistic Regression': 0.7596108383342426, 'SVM': 0.7834588106928532, 'Random Forest': 0.8815257319512639}
+
+Processing file: w2v_lemma_withoutIdf_withoutStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_lemma_withoutIdf_withoutStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 8ms/step - loss: 1.3847 - accuracy: 0.2643 - val_loss: 1.3817 - val_accuracy: 0.2756
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3774 - accuracy: 0.2893 - val_loss: 1.3722 - val_accuracy: 0.2983
+Epoch 3/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3645 - accuracy: 0.3063 - val_loss: 1.3563 - val_accuracy: 0.2926
+Epoch 4/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3420 - accuracy: 0.3240 - val_loss: 1.3254 - val_accuracy: 0.3409
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3084 - accuracy: 0.3459 - val_loss: 1.2945 - val_accuracy: 0.3438
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2738 - accuracy: 0.4007 - val_loss: 1.2625 - val_accuracy: 0.4545
+Epoch 7/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2415 - accuracy: 0.4379 - val_loss: 1.2343 - val_accuracy: 0.4659
+Epoch 8/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2142 - accuracy: 0.4488 - val_loss: 1.2124 - val_accuracy: 0.4602
+Epoch 9/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1868 - accuracy: 0.4622 - val_loss: 1.1903 - val_accuracy: 0.4631
+Epoch 10/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1655 - accuracy: 0.4671 - val_loss: 1.1710 - val_accuracy: 0.4716
+Epoch 11/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1436 - accuracy: 0.4793 - val_loss: 1.1509 - val_accuracy: 0.4858
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1252 - accuracy: 0.4829 - val_loss: 1.1372 - val_accuracy: 0.4915
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1088 - accuracy: 0.4963 - val_loss: 1.1221 - val_accuracy: 0.4886
+Epoch 14/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.0927 - accuracy: 0.5018 - val_loss: 1.1135 - val_accuracy: 0.4886
+Epoch 15/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.0782 - accuracy: 0.5000 - val_loss: 1.0973 - val_accuracy: 0.4972
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 7ms/step - loss: 1.3839 - accuracy: 0.2911 - val_loss: 1.3792 - val_accuracy: 0.4233
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3697 - accuracy: 0.3490 - val_loss: 1.3498 - val_accuracy: 0.4318
+Epoch 3/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3110 - accuracy: 0.4440 - val_loss: 1.2489 - val_accuracy: 0.4631
+Epoch 4/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.1764 - accuracy: 0.5323 - val_loss: 1.0921 - val_accuracy: 0.5710
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.0247 - accuracy: 0.5926 - val_loss: 0.9577 - val_accuracy: 0.6392
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9159 - accuracy: 0.6382 - val_loss: 0.8804 - val_accuracy: 0.6619
+Epoch 7/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8503 - accuracy: 0.6748 - val_loss: 0.8325 - val_accuracy: 0.6875
+Epoch 8/15
+52/52 [==============================] - 0s 5ms/step - loss: 0.8032 - accuracy: 0.7058 - val_loss: 0.8027 - val_accuracy: 0.6790
+Epoch 9/15
+52/52 [==============================] - 0s 5ms/step - loss: 0.7682 - accuracy: 0.7186 - val_loss: 0.7653 - val_accuracy: 0.7017
+Epoch 10/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7468 - accuracy: 0.7278 - val_loss: 0.7465 - val_accuracy: 0.7301
+Epoch 11/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7070 - accuracy: 0.7424 - val_loss: 0.7230 - val_accuracy: 0.7301
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6948 - accuracy: 0.7387 - val_loss: 0.7251 - val_accuracy: 0.7642
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6654 - accuracy: 0.7594 - val_loss: 0.7018 - val_accuracy: 0.7557
+Epoch 14/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6400 - accuracy: 0.7692 - val_loss: 0.6941 - val_accuracy: 0.7699
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6335 - accuracy: 0.7741 - val_loss: 0.6943 - val_accuracy: 0.7500
+
+Training Naive Bayes for w2v_lemma_withoutIdf_withoutStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.4787
+
+Training Logistic Regression for w2v_lemma_withoutIdf_withoutStopWords
+Logistic Regression Average Accuracy: 0.7507
+
+Training SVM for w2v_lemma_withoutIdf_withoutStopWords
+SVM Average Accuracy: 0.7749
+
+Training Random Forest for w2v_lemma_withoutIdf_withoutStopWords
+Random Forest Average Accuracy: 0.8491
+Results for w2v_lemma_withoutIdf_withoutStopWords: {'Naive Bayes': 0.47870340061829425, 'Logistic Regression': 0.7506583015093653, 'SVM': 0.7749263502454993, 'Random Forest': 0.8491089288961629}
+
+Processing file: w2v_lemma_withIDF_withStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_lemma_withIDF_withStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 6ms/step - loss: 1.3792 - accuracy: 0.2789 - val_loss: 1.3685 - val_accuracy: 0.2670
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3494 - accuracy: 0.3636 - val_loss: 1.3287 - val_accuracy: 0.4261
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2948 - accuracy: 0.4641 - val_loss: 1.2584 - val_accuracy: 0.4659
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2055 - accuracy: 0.4738 - val_loss: 1.1666 - val_accuracy: 0.5114
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1093 - accuracy: 0.5128 - val_loss: 1.0864 - val_accuracy: 0.5227
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0163 - accuracy: 0.5445 - val_loss: 1.0166 - val_accuracy: 0.5483
+Epoch 7/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9449 - accuracy: 0.5816 - val_loss: 0.9690 - val_accuracy: 0.5909
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8819 - accuracy: 0.6334 - val_loss: 0.9321 - val_accuracy: 0.6307
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8341 - accuracy: 0.6602 - val_loss: 0.9068 - val_accuracy: 0.6562
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7860 - accuracy: 0.7016 - val_loss: 0.8696 - val_accuracy: 0.6818
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7526 - accuracy: 0.7168 - val_loss: 0.8556 - val_accuracy: 0.7102
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7103 - accuracy: 0.7442 - val_loss: 0.8345 - val_accuracy: 0.6989
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6725 - accuracy: 0.7576 - val_loss: 0.8163 - val_accuracy: 0.7131
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6365 - accuracy: 0.7771 - val_loss: 0.7984 - val_accuracy: 0.7386
+Epoch 15/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6114 - accuracy: 0.8015 - val_loss: 0.7855 - val_accuracy: 0.7358
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 8ms/step - loss: 1.3801 - accuracy: 0.2229 - val_loss: 1.3647 - val_accuracy: 0.2670
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3198 - accuracy: 0.3593 - val_loss: 1.2637 - val_accuracy: 0.4091
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1866 - accuracy: 0.4233 - val_loss: 1.1127 - val_accuracy: 0.4801
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0516 - accuracy: 0.4982 - val_loss: 1.0030 - val_accuracy: 0.5739
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9542 - accuracy: 0.5822 - val_loss: 0.9581 - val_accuracy: 0.5852
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8962 - accuracy: 0.6248 - val_loss: 0.9021 - val_accuracy: 0.6051
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8446 - accuracy: 0.6565 - val_loss: 0.8890 - val_accuracy: 0.6364
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8028 - accuracy: 0.6833 - val_loss: 0.8531 - val_accuracy: 0.6619
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7605 - accuracy: 0.6943 - val_loss: 0.8534 - val_accuracy: 0.6818
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7416 - accuracy: 0.7229 - val_loss: 0.8760 - val_accuracy: 0.6648
+Epoch 11/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7070 - accuracy: 0.7363 - val_loss: 0.8213 - val_accuracy: 0.6989
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6825 - accuracy: 0.7503 - val_loss: 0.8088 - val_accuracy: 0.7216
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6672 - accuracy: 0.7558 - val_loss: 0.7960 - val_accuracy: 0.7045
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6338 - accuracy: 0.7680 - val_loss: 0.7895 - val_accuracy: 0.7358
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6173 - accuracy: 0.7808 - val_loss: 0.7762 - val_accuracy: 0.7273
+
+Training Naive Bayes for w2v_lemma_withIDF_withStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.4885
+
+Training Logistic Regression for w2v_lemma_withIDF_withStopWords
+Logistic Regression Average Accuracy: 0.7651
+
+Training SVM for w2v_lemma_withIDF_withStopWords
+SVM Average Accuracy: 0.7758
+
+Training Random Forest for w2v_lemma_withIDF_withStopWords
+Random Forest Average Accuracy: 0.8009
+Results for w2v_lemma_withIDF_withStopWords: {'Naive Bayes': 0.4885015457355883, 'Logistic Regression': 0.7651427532278596, 'SVM': 0.7758010547372249, 'Random Forest': 0.8009401709401709}
+
+Processing file: w2v_lemma_withIDF_withoutStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_lemma_withIDF_withoutStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 8ms/step - loss: 1.3890 - accuracy: 0.2649 - val_loss: 1.3819 - val_accuracy: 0.3011
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3772 - accuracy: 0.2990 - val_loss: 1.3642 - val_accuracy: 0.3807
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3471 - accuracy: 0.3928 - val_loss: 1.3290 - val_accuracy: 0.4659
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2962 - accuracy: 0.4330 - val_loss: 1.2778 - val_accuracy: 0.4886
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2311 - accuracy: 0.4750 - val_loss: 1.2429 - val_accuracy: 0.4830
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1513 - accuracy: 0.5134 - val_loss: 1.1439 - val_accuracy: 0.5341
+Epoch 7/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.0516 - accuracy: 0.5438 - val_loss: 1.0651 - val_accuracy: 0.5341
+Epoch 8/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9568 - accuracy: 0.5798 - val_loss: 0.9854 - val_accuracy: 0.5739
+Epoch 9/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8778 - accuracy: 0.6334 - val_loss: 0.9355 - val_accuracy: 0.6449
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7979 - accuracy: 0.6906 - val_loss: 0.8740 - val_accuracy: 0.6619
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7404 - accuracy: 0.7387 - val_loss: 0.8710 - val_accuracy: 0.7017
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6895 - accuracy: 0.7728 - val_loss: 0.8397 - val_accuracy: 0.7017
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6509 - accuracy: 0.7917 - val_loss: 0.8406 - val_accuracy: 0.7045
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6095 - accuracy: 0.8112 - val_loss: 0.7911 - val_accuracy: 0.7500
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5765 - accuracy: 0.8149 - val_loss: 0.7676 - val_accuracy: 0.7500
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 8ms/step - loss: 1.3780 - accuracy: 0.2619 - val_loss: 1.3574 - val_accuracy: 0.2869
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3204 - accuracy: 0.3173 - val_loss: 1.3061 - val_accuracy: 0.2841
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2263 - accuracy: 0.4495 - val_loss: 1.1827 - val_accuracy: 0.5199
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0974 - accuracy: 0.5591 - val_loss: 1.0900 - val_accuracy: 0.5369
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9799 - accuracy: 0.6194 - val_loss: 0.9975 - val_accuracy: 0.5852
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8566 - accuracy: 0.6693 - val_loss: 0.9317 - val_accuracy: 0.6477
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7676 - accuracy: 0.7162 - val_loss: 0.8795 - val_accuracy: 0.6705
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7092 - accuracy: 0.7351 - val_loss: 0.8370 - val_accuracy: 0.6818
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6542 - accuracy: 0.7527 - val_loss: 0.8524 - val_accuracy: 0.6705
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6056 - accuracy: 0.7875 - val_loss: 0.7856 - val_accuracy: 0.7017
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5658 - accuracy: 0.7966 - val_loss: 0.7549 - val_accuracy: 0.7188
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5271 - accuracy: 0.8118 - val_loss: 0.7425 - val_accuracy: 0.7301
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.5064 - accuracy: 0.8252 - val_loss: 0.7339 - val_accuracy: 0.7443
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.4833 - accuracy: 0.8343 - val_loss: 0.7380 - val_accuracy: 0.7585
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.4590 - accuracy: 0.8490 - val_loss: 0.6991 - val_accuracy: 0.7557
+
+Training Naive Bayes for w2v_lemma_withIDF_withoutStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.5281
+
+Training Logistic Regression for w2v_lemma_withIDF_withoutStopWords
+Logistic Regression Average Accuracy: 0.7656
+
+Training SVM for w2v_lemma_withIDF_withoutStopWords
+SVM Average Accuracy: 0.7656
+
+Training Random Forest for w2v_lemma_withIDF_withoutStopWords
+Random Forest Average Accuracy: 0.8035
+Results for w2v_lemma_withIDF_withoutStopWords: {'Naive Bayes': 0.5281287506819421, 'Logistic Regression': 0.765561011092926, 'SVM': 0.7655719221676668, 'Random Forest': 0.8034933624295327}
+
+Processing file: w2v_clean_withoutIdf_withStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_clean_withoutIdf_withStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 7ms/step - loss: 1.3475 - accuracy: 0.3630 - val_loss: 1.2917 - val_accuracy: 0.4034
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2233 - accuracy: 0.3946 - val_loss: 1.1331 - val_accuracy: 0.4176
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0919 - accuracy: 0.4062 - val_loss: 1.0151 - val_accuracy: 0.4460
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0016 - accuracy: 0.4549 - val_loss: 0.9555 - val_accuracy: 0.5455
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9396 - accuracy: 0.5652 - val_loss: 0.8891 - val_accuracy: 0.5852
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8858 - accuracy: 0.6133 - val_loss: 0.8700 - val_accuracy: 0.6619
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8522 - accuracy: 0.6212 - val_loss: 0.8322 - val_accuracy: 0.6193
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8204 - accuracy: 0.6486 - val_loss: 0.7824 - val_accuracy: 0.6903
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7798 - accuracy: 0.6687 - val_loss: 0.7579 - val_accuracy: 0.7074
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7554 - accuracy: 0.6797 - val_loss: 0.7334 - val_accuracy: 0.7131
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7336 - accuracy: 0.6888 - val_loss: 0.7134 - val_accuracy: 0.7301
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7023 - accuracy: 0.7028 - val_loss: 0.7023 - val_accuracy: 0.7244
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6790 - accuracy: 0.7168 - val_loss: 0.6809 - val_accuracy: 0.7159
+Epoch 14/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6544 - accuracy: 0.7345 - val_loss: 0.6642 - val_accuracy: 0.7358
+Epoch 15/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6351 - accuracy: 0.7503 - val_loss: 0.6370 - val_accuracy: 0.7557
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 8ms/step - loss: 1.3762 - accuracy: 0.3630 - val_loss: 1.3556 - val_accuracy: 0.3977
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2912 - accuracy: 0.3800 - val_loss: 1.1796 - val_accuracy: 0.4006
+Epoch 3/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.1038 - accuracy: 0.4062 - val_loss: 0.9935 - val_accuracy: 0.4517
+Epoch 4/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9628 - accuracy: 0.5371 - val_loss: 0.8854 - val_accuracy: 0.5938
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8864 - accuracy: 0.5706 - val_loss: 0.8237 - val_accuracy: 0.6733
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8436 - accuracy: 0.6389 - val_loss: 0.7821 - val_accuracy: 0.6847
+Epoch 7/15
+52/52 [==============================] - 0s 5ms/step - loss: 0.8120 - accuracy: 0.6553 - val_loss: 0.7536 - val_accuracy: 0.7074
+Epoch 8/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7765 - accuracy: 0.6675 - val_loss: 0.7239 - val_accuracy: 0.7301
+Epoch 9/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7469 - accuracy: 0.6827 - val_loss: 0.7030 - val_accuracy: 0.7301
+Epoch 10/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7239 - accuracy: 0.7150 - val_loss: 0.7010 - val_accuracy: 0.6562
+Epoch 11/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7069 - accuracy: 0.6961 - val_loss: 0.6726 - val_accuracy: 0.7330
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6825 - accuracy: 0.7314 - val_loss: 0.6544 - val_accuracy: 0.7415
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6677 - accuracy: 0.7363 - val_loss: 0.6314 - val_accuracy: 0.7670
+Epoch 14/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6450 - accuracy: 0.7667 - val_loss: 0.6158 - val_accuracy: 0.7812
+Epoch 15/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6227 - accuracy: 0.7759 - val_loss: 0.6023 - val_accuracy: 0.7642
+
+Training Naive Bayes for w2v_clean_withoutIdf_withStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.5021
+
+Training Logistic Regression for w2v_clean_withoutIdf_withStopWords
+Logistic Regression Average Accuracy: 0.7826
+
+Training SVM for w2v_clean_withoutIdf_withStopWords
+SVM Average Accuracy: 0.8090
+
+Training Random Forest for w2v_clean_withoutIdf_withStopWords
+Random Forest Average Accuracy: 0.8811
+Results for w2v_clean_withoutIdf_withStopWords: {'Naive Bayes': 0.5021312965993816, 'Logistic Regression': 0.7826059283506093, 'SVM': 0.8090270958356065, 'Random Forest': 0.8810965630114567}
+
+Processing file: w2v_clean_withoutIdf_withoutStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_clean_withoutIdf_withoutStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 9ms/step - loss: 1.3802 - accuracy: 0.2540 - val_loss: 1.3710 - val_accuracy: 0.2670
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.3483 - accuracy: 0.2686 - val_loss: 1.3181 - val_accuracy: 0.3011
+Epoch 3/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2707 - accuracy: 0.4172 - val_loss: 1.2155 - val_accuracy: 0.4631
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1562 - accuracy: 0.4970 - val_loss: 1.1068 - val_accuracy: 0.4858
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0372 - accuracy: 0.5676 - val_loss: 1.0029 - val_accuracy: 0.5739
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9411 - accuracy: 0.6133 - val_loss: 0.9234 - val_accuracy: 0.5994
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8660 - accuracy: 0.6431 - val_loss: 0.8632 - val_accuracy: 0.6278
+Epoch 8/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8062 - accuracy: 0.6529 - val_loss: 0.8021 - val_accuracy: 0.6392
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7657 - accuracy: 0.6565 - val_loss: 0.7751 - val_accuracy: 0.6420
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7168 - accuracy: 0.6912 - val_loss: 0.7374 - val_accuracy: 0.6619
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6823 - accuracy: 0.7058 - val_loss: 0.7147 - val_accuracy: 0.6449
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6542 - accuracy: 0.7205 - val_loss: 0.6840 - val_accuracy: 0.6648
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6257 - accuracy: 0.7326 - val_loss: 0.6657 - val_accuracy: 0.6932
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6038 - accuracy: 0.7448 - val_loss: 0.6545 - val_accuracy: 0.6989
+Epoch 15/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.5815 - accuracy: 0.7515 - val_loss: 0.6519 - val_accuracy: 0.6989
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 1s 7ms/step - loss: 1.3795 - accuracy: 0.2771 - val_loss: 1.3643 - val_accuracy: 0.3807
+Epoch 2/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.3394 - accuracy: 0.4007 - val_loss: 1.2933 - val_accuracy: 0.4773
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2265 - accuracy: 0.4543 - val_loss: 1.1575 - val_accuracy: 0.5085
+Epoch 4/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.1094 - accuracy: 0.4927 - val_loss: 1.0609 - val_accuracy: 0.5682
+Epoch 5/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.0155 - accuracy: 0.5268 - val_loss: 0.9779 - val_accuracy: 0.5824
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9356 - accuracy: 0.5926 - val_loss: 0.9040 - val_accuracy: 0.6335
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8628 - accuracy: 0.6322 - val_loss: 0.8386 - val_accuracy: 0.6733
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7932 - accuracy: 0.6663 - val_loss: 0.7773 - val_accuracy: 0.6847
+Epoch 9/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7370 - accuracy: 0.6961 - val_loss: 0.7339 - val_accuracy: 0.7188
+Epoch 10/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6918 - accuracy: 0.7186 - val_loss: 0.6954 - val_accuracy: 0.7216
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6496 - accuracy: 0.7400 - val_loss: 0.6858 - val_accuracy: 0.7500
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6222 - accuracy: 0.7546 - val_loss: 0.6467 - val_accuracy: 0.7472
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5906 - accuracy: 0.7808 - val_loss: 0.6280 - val_accuracy: 0.7642
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5678 - accuracy: 0.7795 - val_loss: 0.6057 - val_accuracy: 0.7756
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5311 - accuracy: 0.8039 - val_loss: 0.6135 - val_accuracy: 0.7898
+
+Training Naive Bayes for w2v_clean_withoutIdf_withoutStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.4851
+
+Training Logistic Regression for w2v_clean_withoutIdf_withoutStopWords
+Logistic Regression Average Accuracy: 0.7835
+
+Training SVM for w2v_clean_withoutIdf_withoutStopWords
+SVM Average Accuracy: 0.8137
+
+Training Random Forest for w2v_clean_withoutIdf_withoutStopWords
+Random Forest Average Accuracy: 0.8504
+Results for w2v_clean_withoutIdf_withoutStopWords: {'Naive Bayes': 0.4850845608292417, 'Logistic Regression': 0.7834533551554828, 'SVM': 0.8137206764866338, 'Random Forest': 0.8504018912529551}
+
+Processing file: w2v_clean_withIDF_withStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_clean_withIDF_withStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 7ms/step - loss: 1.3969 - accuracy: 0.2485 - val_loss: 1.3803 - val_accuracy: 0.3295
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3729 - accuracy: 0.3343 - val_loss: 1.3655 - val_accuracy: 0.3267
+Epoch 3/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3505 - accuracy: 0.3441 - val_loss: 1.3384 - val_accuracy: 0.3324
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.3142 - accuracy: 0.3660 - val_loss: 1.2994 - val_accuracy: 0.3636
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2702 - accuracy: 0.4220 - val_loss: 1.2564 - val_accuracy: 0.3977
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2218 - accuracy: 0.4470 - val_loss: 1.2235 - val_accuracy: 0.4062
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1732 - accuracy: 0.4781 - val_loss: 1.1758 - val_accuracy: 0.5057
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1342 - accuracy: 0.5024 - val_loss: 1.1501 - val_accuracy: 0.5028
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0919 - accuracy: 0.5274 - val_loss: 1.1233 - val_accuracy: 0.4943
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0549 - accuracy: 0.5317 - val_loss: 1.0987 - val_accuracy: 0.5057
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0198 - accuracy: 0.5530 - val_loss: 1.0820 - val_accuracy: 0.5142
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9935 - accuracy: 0.5670 - val_loss: 1.0618 - val_accuracy: 0.5398
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9594 - accuracy: 0.5822 - val_loss: 1.0445 - val_accuracy: 0.5142
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9342 - accuracy: 0.5974 - val_loss: 1.1036 - val_accuracy: 0.4915
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9093 - accuracy: 0.6169 - val_loss: 1.0098 - val_accuracy: 0.5739
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 1s 7ms/step - loss: 1.3652 - accuracy: 0.2442 - val_loss: 1.3227 - val_accuracy: 0.2955
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2608 - accuracy: 0.3581 - val_loss: 1.1677 - val_accuracy: 0.4176
+Epoch 3/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.1005 - accuracy: 0.4610 - val_loss: 1.0118 - val_accuracy: 0.5483
+Epoch 4/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9839 - accuracy: 0.5378 - val_loss: 0.9266 - val_accuracy: 0.6136
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9118 - accuracy: 0.5883 - val_loss: 0.8736 - val_accuracy: 0.6619
+Epoch 6/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8587 - accuracy: 0.6096 - val_loss: 0.8635 - val_accuracy: 0.6136
+Epoch 7/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8158 - accuracy: 0.6486 - val_loss: 0.8214 - val_accuracy: 0.6989
+Epoch 8/15
+52/52 [==============================] - 0s 5ms/step - loss: 0.7728 - accuracy: 0.6711 - val_loss: 0.8085 - val_accuracy: 0.6875
+Epoch 9/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7381 - accuracy: 0.6955 - val_loss: 0.7913 - val_accuracy: 0.6960
+Epoch 10/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7025 - accuracy: 0.7290 - val_loss: 0.7836 - val_accuracy: 0.6903
+Epoch 11/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6761 - accuracy: 0.7369 - val_loss: 0.7726 - val_accuracy: 0.6932
+Epoch 12/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.6573 - accuracy: 0.7479 - val_loss: 0.7992 - val_accuracy: 0.6847
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6244 - accuracy: 0.7655 - val_loss: 0.7698 - val_accuracy: 0.6818
+Epoch 14/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6019 - accuracy: 0.7728 - val_loss: 0.7513 - val_accuracy: 0.7159
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5722 - accuracy: 0.7899 - val_loss: 0.7826 - val_accuracy: 0.6989
+
+Training Naive Bayes for w2v_clean_withIDF_withStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.5362
+
+Training Logistic Regression for w2v_clean_withIDF_withStopWords
+Logistic Regression Average Accuracy: 0.7758
+
+Training SVM for w2v_clean_withIDF_withStopWords
+SVM Average Accuracy: 0.7877
+
+Training Random Forest for w2v_clean_withIDF_withStopWords
+Random Forest Average Accuracy: 0.8201
+Results for w2v_clean_withIDF_withStopWords: {'Naive Bayes': 0.5362211311147481, 'Logistic Regression': 0.7757937806873977, 'SVM': 0.7877286779414439, 'Random Forest': 0.8201272958719766}
+
+Processing file: w2v_clean_withIDF_withoutStopWords
+Data loaded from C:/Users/danie/Desktop/IR/Information_retrieval/exe2/IR-files/word2vec/w2v_clean_withIDF_withoutStopWords.csv
+Shape of X: (2346, 300), Shape of y: 2346
+Unique labels in y: ['A-J' 'BBC' 'J-P' 'NY-T']
+
+Training ANN Topology 1...
+Epoch 1/15
+52/52 [==============================] - 1s 8ms/step - loss: 1.3451 - accuracy: 0.2850 - val_loss: 1.3016 - val_accuracy: 0.2784
+Epoch 2/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.2636 - accuracy: 0.4068 - val_loss: 1.2162 - val_accuracy: 0.4545
+Epoch 3/15
+52/52 [==============================] - 0s 5ms/step - loss: 1.1861 - accuracy: 0.4793 - val_loss: 1.1520 - val_accuracy: 0.5256
+Epoch 4/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.1268 - accuracy: 0.5384 - val_loss: 1.1065 - val_accuracy: 0.5312
+Epoch 5/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0785 - accuracy: 0.5646 - val_loss: 1.0569 - val_accuracy: 0.5966
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 1.0337 - accuracy: 0.5871 - val_loss: 1.0195 - val_accuracy: 0.6023
+Epoch 7/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9892 - accuracy: 0.6060 - val_loss: 0.9912 - val_accuracy: 0.6080
+Epoch 8/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.9451 - accuracy: 0.6315 - val_loss: 0.9605 - val_accuracy: 0.6023
+Epoch 9/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8995 - accuracy: 0.6486 - val_loss: 0.9369 - val_accuracy: 0.6165
+Epoch 10/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.8693 - accuracy: 0.6559 - val_loss: 0.9160 - val_accuracy: 0.6108
+Epoch 11/15
+52/52 [==============================] - 0s 6ms/step - loss: 0.8289 - accuracy: 0.6681 - val_loss: 0.9029 - val_accuracy: 0.6222
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7949 - accuracy: 0.6882 - val_loss: 0.8963 - val_accuracy: 0.6193
+Epoch 13/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7601 - accuracy: 0.6949 - val_loss: 0.8935 - val_accuracy: 0.6193
+Epoch 14/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7314 - accuracy: 0.7022 - val_loss: 0.8793 - val_accuracy: 0.6136
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7003 - accuracy: 0.7168 - val_loss: 0.8962 - val_accuracy: 0.6278
+
+Training ANN Topology 2...
+Epoch 1/15
+52/52 [==============================] - 2s 7ms/step - loss: 1.3679 - accuracy: 0.3088 - val_loss: 1.3323 - val_accuracy: 0.3523
+Epoch 2/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.2585 - accuracy: 0.3922 - val_loss: 1.1615 - val_accuracy: 0.4858
+Epoch 3/15
+52/52 [==============================] - 0s 4ms/step - loss: 1.0753 - accuracy: 0.5512 - val_loss: 0.9950 - val_accuracy: 0.6193
+Epoch 4/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.9323 - accuracy: 0.6303 - val_loss: 0.9120 - val_accuracy: 0.6392
+Epoch 5/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.8395 - accuracy: 0.6730 - val_loss: 0.8552 - val_accuracy: 0.6136
+Epoch 6/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.7711 - accuracy: 0.7034 - val_loss: 0.8211 - val_accuracy: 0.6761
+Epoch 7/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.7097 - accuracy: 0.7430 - val_loss: 0.7878 - val_accuracy: 0.6761
+Epoch 8/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6641 - accuracy: 0.7728 - val_loss: 0.7519 - val_accuracy: 0.7159
+Epoch 9/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.6219 - accuracy: 0.7820 - val_loss: 0.7369 - val_accuracy: 0.7301
+Epoch 10/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.5730 - accuracy: 0.8100 - val_loss: 0.7234 - val_accuracy: 0.7443
+Epoch 11/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.5411 - accuracy: 0.8270 - val_loss: 0.7147 - val_accuracy: 0.7443
+Epoch 12/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.5041 - accuracy: 0.8447 - val_loss: 0.7040 - val_accuracy: 0.7443
+Epoch 13/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.4693 - accuracy: 0.8575 - val_loss: 0.6931 - val_accuracy: 0.7699
+Epoch 14/15
+52/52 [==============================] - 0s 4ms/step - loss: 0.4385 - accuracy: 0.8709 - val_loss: 0.6854 - val_accuracy: 0.7727
+Epoch 15/15
+52/52 [==============================] - 0s 3ms/step - loss: 0.4138 - accuracy: 0.8764 - val_loss: 0.7000 - val_accuracy: 0.7784
+
+Training Naive Bayes for w2v_clean_withIDF_withoutStopWords
+Transforming X to non-negative values for Naive Bayes.
+Naive Bayes Average Accuracy: 0.5618
+
+Training Logistic Regression for w2v_clean_withIDF_withoutStopWords
+Logistic Regression Average Accuracy: 0.7847
+
+Training SVM for w2v_clean_withIDF_withoutStopWords
+SVM Average Accuracy: 0.7907
+
+Training Random Forest for w2v_clean_withIDF_withoutStopWords
+Random Forest Average Accuracy: 0.8073
+Results for w2v_clean_withIDF_withoutStopWords: {'Naive Bayes': 0.5617803236952172, 'Logistic Regression': 0.7847408619749046, 'SVM': 0.7907383160574649, 'Random Forest': 0.8073467903255137}
+All tasks completed successfully!
